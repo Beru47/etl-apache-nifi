@@ -1,0 +1,16 @@
+# Python and IDE noise
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# NiFi runtime output and local inputs
+output/
+input/
+data/
+*.xls
+*.parquet
+*.log
