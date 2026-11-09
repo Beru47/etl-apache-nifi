@@ -997,7 +997,7 @@
 							"entry": [
 								{
 									"key": "Input Directory",
-									"value": "/home/haythem47/gmam/SecondSession/data/input"
+									"value": "/home/<user>/gmam/SecondSession/data/input"
 								},
 								{
 									"key": "File Filter",

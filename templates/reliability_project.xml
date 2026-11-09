@@ -965,7 +965,7 @@
                 <properties>
                     <entry>
                         <key>Input Directory</key>
-                        <value>/home/haythem47/gmam/SecondSession/data/input</value>
+                        <value>/home/&lt;user&gt;/gmam/SecondSession/data/input</value>
                     </entry>
                     <entry>
                         <key>File Filter</key>

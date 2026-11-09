@@ -37,7 +37,7 @@ The template was exported from NiFi 1.x. Templates were removed in NiFi 2.x, so 
 2. Upload the template: open the top-right menu, choose **Templates**, then **Upload Template**, and select `templates/reliability_project.xml`.
 3. Add it to the canvas: drag the **Template** icon from the toolbar onto the canvas and pick `reliability_project`.
 4. Enable the controller services: right-click the process group, open **Configuration**, then **Controller Services**, and enable `CSVReader`, `ParquetReader`, and `ParquetRecordSetWriter`.
-5. Point the paths at your machine. The template uses the author's home directory:
+5. Point the paths at your machine. The template uses `/home/<user>/` as a placeholder for the home directory:
    - `GetFile` → **Input Directory**: a folder containing your input file.
    - `PutFile` → **Directory**: an output folder (the `${industry}` part stays).
 6. Create the input folder and put the source file in it. The file filter expects `turnover.xls`, and the reader is CSV, so the file needs CSV-formatted content.
